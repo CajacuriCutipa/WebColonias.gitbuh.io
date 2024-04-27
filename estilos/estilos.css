@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-decoration: overline;
+    text-align: center;
+    background-color: rgb(242, 4, 250);
+    color: azure;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.Introduccion{
+    color: azure;
+    background-color: rgb(134, 6, 81);
+    list-style: none;
+    text-align: left;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.Foto_{
+    width : 120px;
+    height: 120px;
+    float: right;
+    border-radius: 50%;
+    background-origin: 50%;
+}
+
+nav ul{
+    background-color: rgb(154, 11, 236);
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;  
+    padding: 15px;
+    width: 150px;
+}
+
+nav li:hover {
+    background-color: blueviolet;
+}
+
+img {
+    float: right;
+    align-items:last baseline;
+    border: 50%;
+    object-fit: cover;
+}
+
+.Contenido{
+    display: flex;
+    margin: 70px;
+}
+
+.Articulo{
+    width: auto;
+    border-right: 15px solid rgb(98, 27, 165);
+
+}
+
+.Articulo2{
+    width: auto;
+    border-right: 15px solid rgb(168, 2, 141);
+
+}
+
+.Secciones {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+
+.Menu_Secundario{
+    width: 20%;
+    margin-top: 60px;
+}
+
+.Menu_Secundario a {
+    display: block;
+    text-align: left;
+    color: rgb(247, 0, 103);
+    margin-bottom: 25px;
+}
+
+.final{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+  
+
